@@ -25,7 +25,7 @@ while True:
 
   #draw rectangles to show detection on the face_coordinates
   for (x, y, w, h) in face_coordinates:
-      cv2.rectangle(frame, (x, y), (x+w, y+h), randrange(256), randrange(256), randrange(256), 9)
+    cv2.rectangle(frame, (x, y), (x+w, y+h), (randrange(256), randrange(256), randrange(256)), 3)
     
   cv2.imshow('Clever Programmer Face Detector', frame)
   key = cv2.waitKey(1)
