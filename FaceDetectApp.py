@@ -36,5 +36,3 @@ while True:
 
 #Releases the VideoCapture object
 webcam.release()
-
-print("Code Completed")
